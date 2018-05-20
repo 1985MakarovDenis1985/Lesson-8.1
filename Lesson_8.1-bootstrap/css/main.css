@@ -1,22 +1,27 @@
 @font-face{
 font-family: 'LeagueGothicRegular';
-src: url('fonts/LeagueGothicRegular.ttf');
+src: url('../fonts/LeagueGothicRegular.ttf');
 font-weight: normal;
 font-style: normal;}
 
 @font-face{
 font-family: 'OpenSans Light';
-src: url('fonts/OpenSans Light.ttf');
+src: url('../fonts/OpenSans Light.ttf');
 font-weight: normal;
 font-style: normal;}
 
 @font-face{
 font-family: 'georgiai';
-src: url('fonts/georgiai.ttf');
+src: url('./fonts/georgiai.ttf');
 font-weight: normal;
 font-style: normal;}
 
-.col-md-2,
+
+
+
+
+
+/*.col-md-2,
 .col-md-3,
 .col-md-4,
 .col-md-5,
@@ -25,7 +30,7 @@ font-style: normal;}
 .col-md-8,
 .col-lg-3{
 	border: 1px solid black;
-}
+}*/
 
 
 .--ghost{
@@ -53,7 +58,7 @@ a:hover{
 }
 
 .container-fluid{
-	border: 1px solid black;
+/*	border: 1px solid black;*/
 	padding-left: 0px;
 	padding-right: 0px;
 	/*height: 1500px;*/
@@ -63,8 +68,8 @@ a:hover{
 
 .--header{
 	height: 500px;
-	border: 1px solid black;
-	background-image: url(img/Фон.png);
+/*	border: 1px solid black;*/
+	background-image: url(../img/Фон.png);
 	background-size: contain;
 	height: 550px;
 	background-position: center;
@@ -77,19 +82,19 @@ a:hover{
 .row{
 	margin-right: 0px;
 	margin-left: 0px;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 }
 
 .logo-wraper{
 	font-family: 'LeagueGothicRegular';
 	font-size: 30px;
 	color: white;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 }
 								@media all and (max-width: 768px) {
 								.logo-wraper {
 								padding-left: 41%;
-								
+
 							}}
 
 .box_wraper{
@@ -199,14 +204,14 @@ ul:hover>li>a:hover{
 								text-shadow: none;
 								border: none;
 								background-color: transparent; /*rgba(59, 47, 67, 0.7);*/
-							
+
 							}}
 
 						@media all and (max-width: 490px) {
 							.--header-nav {
 								display: none;
 							}}
-							
+
 .--header-nav>div{
 	border: 2px solid transparent;
 
@@ -221,12 +226,12 @@ ul:hover>li>a:hover{
 								background-color: rgba(59, 47, 67, 0.9);
 								border-bottom: 1px solid #36283e;
 								border-top: 1px solid #523e5a;
-								border-right: 1px solid black;
-								border-left: 1px solid black;
+								/*border-right: 1px solid black;
+								border-left: 1px solid black;*/
 								margin: auto;
 
 							}
-							
+
 .--header-nav>div>a{
 text-shadow: none;
 	}							@media all and (max-width: 768px) {
@@ -240,7 +245,7 @@ border-bottom-right-radius: 10px;
 border-bottom-left-radius: 10px;
 border-bottom-color: black;
 }
-							
+
 .--header-nav>div:first-child{
 	border-top-right-radius: 10px;
 	border-top-left-radius: 10px;
@@ -251,20 +256,19 @@ border-bottom-color: black;
 	background-color: rgba(43, 34, 49, 0.9);
 	}
 }
-			
+
 
 							@media all and (max-width: 480px) {
 							.--header-nav>div:first-child {
 								display: block;
-								
+
 							}}
 
 
 
 .--header-nav>div:hover{
 	border-bottom: 2px solid #edbfff;
-}/*
-000000000*/
+}
 
 
 
@@ -298,7 +302,7 @@ border-bottom-color: black;
 /*Slider*/
 
 .glyphicon-chevron-left:before {
-	margin-left: -150px;
+	margin-left: -170px;
 }
 .glyphicon-chevron-right:before{
 	margin-left: 100px;
@@ -366,7 +370,7 @@ border-bottom-color: black;
 															}}
 
 .slider-top{
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 }
 
 .otstup{
@@ -398,7 +402,7 @@ border-bottom-color: black;
 	background-image: none;
 	font-size: 30px;
 }
-						
+
 						@media all and (max-width: 768px) {
 							.carousel-control.left{
 								padding-left: 200px;
@@ -410,14 +414,15 @@ border-bottom-color: black;
 
 }
 .carousel-indicators{
-	bottom: 0px;
-	padding-left: 300px;
+	bottom: -35px;
+	width: 50px;
+	margin-left: -10%;
 }
 
 						@media all and (max-width: 768px) {
 							.carousel-indicators{
 								padding-left: 0px;
-							
+
 											}}
 
 
@@ -427,7 +432,7 @@ border-bottom-color: black;
 								padding-left: 30px;
 								margin-top: 210px;
 											}}
-								
+
 
 .--first{
 	font-size: 35px;
@@ -435,12 +440,12 @@ border-bottom-color: black;
 	margin-top: 100px;
 }
 
-						
+
 						@media all and (max-width: 490px) {
 							.--first{
 								margin-left: 5%;
 											}}
-				
+
 						@media all and (max-width: 768px) {
 							.--first{
 								margin-top: -70px;
@@ -471,7 +476,7 @@ border-bottom-color: black;
 							.--third{
 								display: none;
 											}}
- 
+
 
 
 
@@ -499,7 +504,7 @@ border-bottom-color: black;
 											margin-bottom: 30px;
 										}}
 
-									
+
 
 
 
@@ -546,7 +551,7 @@ border-bottom-color: black;
 	margin-top: 50px;
 }
 .--posts{
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	background: #f9f9f9;
 	/*height: 350px;*/
   	border-bottom: 1px solid #e6e6e6;
@@ -554,14 +559,14 @@ border-bottom-color: black;
 
 
                  	@media all and (max-width: 768px) {
-								.--post_ghost{
-								display: none;
+						    		.--post_ghost{
+							    	    display: none;
 										}}
 
 }
 
 .--post{
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 }
 
 .postes_left{
@@ -587,11 +592,11 @@ border-bottom-color: black;
 }
 
 .postes_left{
-	background-image: url(img/postes.png);
+	background-image: url(../img/postes.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
-	border: 1px solid black;
+/*	border: 1px solid black;*/
 	height: 210px;
 	width: 315px;
 	padding: 20px;
@@ -632,9 +637,31 @@ h6{
 	text-overflow: ellipsis;
 }
 
+.slick-dots {
+	bottom: -35px;
+}
+
+.slick-dots li button{
+	border: 1px solid #e7e7e7;
+	border-radius: 50%;
+	width: 14px;
+	height: 14px;
+	display: inherit;
+	font-size: 12px;
+	padding-top: 7px;
+	background-color: white !important;
+}
+
+.slick-dots li button:before {
+	font-size: 12px;
+	top: 2 !important;
+	color: white;
+}
+
+
 .--post{
 	padding-top: 60px;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 }
 
 							/* @media all and (max-width: 768px) {
@@ -644,7 +671,7 @@ h6{
 											}} */
 
 .post_box{
-	border: 1px solid black;
+/*	border: 1px solid black;*/
 	width: 310px;
 }
 
@@ -689,7 +716,7 @@ h6{
 	float: right;
 	width: 80px;
 	display: block;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 }
 
 							@media all and (max-width: 768px) {
@@ -792,11 +819,11 @@ h6{
 							display: block;
 							display: flex !important
 										}}
-				
 
-			
 
---icon_490
+
+
+
 
 
 /*FOOTER*/
@@ -811,7 +838,7 @@ h6{
 
 
 .footer-top{
-	border: 1px solid black;
+/*	border: 1px solid black;*/
 	margin-top: 70px;
 	overflow: hidden;
 	height: 190px;
@@ -891,7 +918,7 @@ p.text_italic{
 
 .footer-bottom{
 	height: 90px;
-	background-image: url(img/footer.png);
+	background-image: url(../img/footer.png);
 	background-size: cover;
 	padding-top: 1px;
 }
@@ -907,13 +934,13 @@ p.text_italic{
 												.underfooter{
 													display: flex;
 													justify-content: space-between;
-													
+
 																}}
 
 								@media all and (max-width: 490px) {
 												.underfooter{
 													display: none;
-													
+
 																}}
 
 .underfooter>span{
@@ -921,11 +948,11 @@ p.text_italic{
 	margin-left: 25px;
 	font-size: 17px;
 	color: #ffffff;
-	text-shadow:  2px 2px 3px  #626165;	
+	text-shadow:  2px 2px 3px  #626165;
 }
 
 .underfooter>span>a{
-	text-shadow:  2px 2px 2px  #626165;	
+	text-shadow:  2px 2px 2px  #626165;
 }
 
 .underfooter>span:first-child{
@@ -939,7 +966,7 @@ p.text_italic{
 	display: flex;
 	justify-content: center;
 }
-								
+
 								@media all and (max-width: 768px) {
 												.underfooter-end{
 												height: 70px;
@@ -952,10 +979,10 @@ p.text_italic{
 	font-family: 'LeagueGothicRegular';
 	text-shadow:  1px 1px 3px  black;
 	color: white;
-	
+
 }
-								
-								
+
+
 
 
 .underfooter-end>span:nth-child(1){
@@ -963,12 +990,12 @@ p.text_italic{
 
 	font-family: 'OpenSans Light';
 	text-shadow:  1px 1px 3px black;
-	
+
 	color: white;
-	
+
 }
 
-								
+
 
 
 
@@ -978,18 +1005,18 @@ p.text_italic{
 	width: 100px;
 	height: 20px;
 	margin: auto;
-	
+
 }
 
-			
-	
+
+
 div.end>span:first-child{
 	color: white;
 	font-size: 10px;
 	margin: 0px;
 	font-family: 'OpenSans Light';
 	text-shadow:  1px 1px 3px black;
-}	
+}
 
 
 div.end>span:last-child{
@@ -998,12 +1025,3 @@ div.end>span:last-child{
 	font-family: 'LeagueGothicRegular';
 	text-shadow:  1px 1px 3px  black;
 }
-
-
-
-
-
-
-
-
-
